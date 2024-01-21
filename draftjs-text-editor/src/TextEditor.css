@@ -1,0 +1,47 @@
+.text-editor-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    
+  }
+  
+  .editor {
+    background-color: rgb(233, 232, 232);
+    border: 4px solid black;
+    border-radius: 15px;
+    min-height: 300px;
+    padding: 10px;
+    height: 550px;
+    box-shadow: inset 0 0 0 4px grey;
+    cursor: pointer;
+  }
+  
+  .button {
+    background-color: rgb(113, 113, 204);
+    height: 40px;
+    width: 90px;
+    margin-left: 48%;
+    border-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .button:hover{
+    background-color: rgb(41, 41, 194) ;
+  }
+
+  .heading-text {
+    font-size: 150%;
+  }
+  .red-text{
+    color: red;
+  }
+  .underline-text{
+    text-decoration: underline;
+  }
+  .bold-text{
+    font-weight: bold;
+  }
